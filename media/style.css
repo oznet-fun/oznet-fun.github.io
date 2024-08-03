@@ -315,6 +315,15 @@ body {
     width: 100%;
 }
 
+.mainmap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 1rem;
+    background-color: var(--background2);
+    width: 100%;
+}
 
 
 .main2_features_div {
