@@ -3,6 +3,8 @@
     --roundness: 0.75rem;
     --accent1: #02db02;
     --accent2: #05b305;
+    --accent3: #ec8918;
+    --accent4: #b16611;
     --accent2_transp: #05b30555;
     --background1: #212529;
     --background2: #16191b;
@@ -87,6 +89,19 @@ body {
     width: 5rem;
     padding-left: 2rem;
     padding-right: 1rem;
+}
+
+.desktop_navbar_link3 {
+    font-size: 1.2rem;
+    padding: .8rem;
+    transition: all .5s;
+    text-decoration: none;
+    color: var(--accent3);
+    text-align: center;
+}
+
+.desktop_navbar_link3:hover {
+    color: var(--accent4);
 }
 
 .desktop_navbar_link {
@@ -497,6 +512,9 @@ body {
 }
 .main5_admins_description_rank_admin {
     color: #f82f2f;
+}
+.main5_admins_description_rank_gm {
+    color: #f5882e;
 }
 .main5_admins_description_title {
     text-align: center;
