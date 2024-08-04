@@ -634,8 +634,14 @@ body {
     height: 8rem;
     background-color: var(--background2);
     border-radius: var(--roundness);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 1rem;
     padding: 1rem;
+}
+
+.main3_join_div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .main3_join_title {
@@ -664,7 +670,7 @@ body {
     text-align: right;
     font-size:1.4rem;
     line-height: 1.5;
-    border-right: 3px solid var(--background2);
+    /* border-right: 3px solid var(--background2); */
     padding-right: .75rem;
 }
 .main3_join_values {
@@ -673,8 +679,13 @@ body {
     text-align: left;
     font-size:1.4rem;
     line-height: 1.5;
-    border-left: 3px solid var(--background2);
+    /* border-left: 3px solid var(--background2); */
     padding-left: .75rem;
+}
+
+.main3_join_values_ip {
+    font-weight: bold;
+    color: var(--accent2)
 }
 
 
