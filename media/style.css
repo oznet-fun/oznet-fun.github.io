@@ -782,3 +782,148 @@ body {
         margin: .25rem;
     }
 }
+
+.subheadline {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.main6 {
+    background-color: var(--background1);
+    min-height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.main6_roles_div {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main6_role {
+    display: flex;
+    background-color: var(--background2);
+    height: 16rem;
+    width: 18rem;
+    margin: 1rem;
+    border-radius: var(--roundness);
+    transition: all .5s;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.main6_role:hover {
+    background-color: #00000099;
+    transform: scale(1.05);
+}
+
+.main6_role_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--accent1);
+}
+
+.main6_role_title_default {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #b9b9b9;
+}
+
+.main6_role_title_special {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #00b7ff;
+}
+
+.main6_role_title_gm {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f5882e;
+}
+
+.main6_role_title_admin {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f82f2f;
+}
+
+.main6_role_price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--accent3);
+}
+
+.main6_role_advantages {
+    font-size: 1rem;
+    color: #ffffff99;
+}
+
+.main6_instructions {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: var(--background2);
+    border-radius: var(--roundness);
+    color: #ffffff99;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main6_instructions a {
+    color: var(--accent1);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main6_instructions a:hover {
+    color: var(--accent2);
+    text-decoration: underline;
+}
+
+.main6_role_permission_label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent1);
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.main6_role_rank_bar {
+    background-color: #444;
+    border-radius: var(--roundness);
+    height: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    width: 80%; /* Set to a percentage or a fixed width, such as 300px */
+    max-width: 400px; /* Set a max-width to contain the bar */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.main6_role_rank_fill {
+    background-color: var(--accent3);
+    height: 100%;
+    border-radius: var(--roundness);
+}
+
